@@ -39,7 +39,7 @@
 - Swagger UI
 
 # Running the app
-1. Clone the repository: git clone [https://github.com/Sirajuddin135/E-Commerce-Application.git](https://github.com/yinkyAde/E-Commerce-Application.git)
+1. Clone the repository: git clone [(https://github.com/yinkyAde/E-Commerce-Application.git)](https://github.com/yinkyAde/E-Commerce-Application.git)
 2. Import the project into your IDE (Integrated Development Environment):
 3. Update the values in application.properties with your Postgres database connection details.
 4. Run the app: run mvn clean install first and run from the main application ECommerceApplication.java
