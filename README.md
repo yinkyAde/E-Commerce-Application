@@ -1,8 +1,8 @@
 # E-Commerce-Application
 
-- The E-Commerce Application is built using Java and Spring Boot, with security, scalability, and ease of maintenance. The backend uses Spring Data JPA to interact with a MySQL database, making it easy to manage and store important entities such as users, products, categories, orders, and more. User authentication is handled by Auth0, providing secure and reliable means of REST APIs.
+- The E-Commerce Application is built using Java and Spring Boot, with security, scalability, and ease of maintenance. The backend uses Spring Data JPA to interact with a Postgres database, making it easy to manage and store important entities such as users, products and more. User authentication is handled by Auth0, providing secure and reliable means of REST APIs.
 
-- The APIs are well-documented and easily accessible through Swagger UI, making it simple for developers to test and understand the various endpoints. Overall, this project provides secure Rest APIs to create a scalable platform for businesses to sell their products to customers.
+- The APIs are well-documented and easily accessible through Swagger UI, making it simple for developers to test and understand the various endpoints.
 
 # Features
 ## Admin:-
@@ -20,31 +20,29 @@
 - Managing address and products quantity
 - Ordering products and fetching order status
 
+# Features to be added 
+- Elastic search 
+
 # Security
 - The API is secured using JSON Web Tokens (JWT) handled by Auth0. To access the API, you will need to obtain a JWT by authenticating with the /login endpoint. The JWT should then be passed in the Authorize option available in the Swagger-ui.
 
-  ### Example:
-  - Authorization: <your_jwt>
 
 # Technologies:
 - Java 17 or above
 - Spring Boot 3.0
 - Maven
-- MySQL
 - Spring Data JPA
 - Spring Security
+- Postgres
 - JSON Web Tokens (JWT)
 - Auth0
 - Swagger UI
 
 # Running the app
-1. Clone the repository: git clone https://github.com/Sirajuddin135/E-Commerce-Application.git
-2. Import the project into STS:
-  - Click File > Import...
-  - Select Maven > Existing Maven Projects and click Next
-  - Browse to the project directory and click Finish
-3. Update the values in application.properties with your MySQL database connection details.
-4. Run the app: Right-click the project in the Package Explorer and click Run As > Spring Boot App.
+1. Clone the repository: git clone [https://github.com/Sirajuddin135/E-Commerce-Application.git](https://github.com/yinkyAde/E-Commerce-Application.git)
+2. Import the project into your IDE (Integrated Development Environment):
+3. Update the values in application.properties with your Postgres database connection details.
+4. Run the app: run mvn clean install first and run from the main application ECommerceApplication.java
 
 # API documentation
 - API documentation is available via Swagger UI at http://localhost:8080/swagger-ui/index.html
@@ -53,7 +51,8 @@
 <img width="605" alt="ER-Diagram" src="https://user-images.githubusercontent.com/101395494/216134703-e7cefef6-187f-44df-9fd4-52aedc66d24b.png">
 
 # Swagger-ui
-<img width="947" alt="Swagger-UI" src="https://user-images.githubusercontent.com/101395494/216388614-f8eed33e-cbbb-4cfa-997e-b76674bbb465.png">
+<img width="1649" alt="Swagger UI" src="https://github.com/yinkyAde/E-Commerce-Application/assets/50271975/edbacf42-6342-4591-9699-7930ed7c36e2">
+
 
 # API Controllers
 <img width="947" alt="Auth_Controller" src="https://user-images.githubusercontent.com/101395494/216388749-4f15d968-ae52-48a9-9c08-0b72d608084a.png">
