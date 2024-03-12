@@ -1,8 +1,10 @@
 # E-Commerce-Application
 
-- The E-Commerce Application is built using Java and Spring Boot, with security, scalability, and ease of maintenance. The backend uses Spring Data JPA to interact with a Postgres database, making it easy to manage and store important entities such as users, products and more. User authentication is handled by Auth0, providing secure and reliable means of REST APIs.
+- The E-Commerce Application is crafted using Java and Spring Boot, leveraging robust security measures, scalability, and streamlined maintenance. Within its architecture, Spring Data JPA seamlessly interacts with a PostgreSQL database, ensuring efficient management and storage of pivotal entities like users and products.
 
-- The APIs are well-documented and easily accessible through Swagger UI, making it simple for developers to test and understand the various endpoints.
+- User authentication is fortified through Auth0, offering a trusted and resilient mechanism for securing REST APIs.
+
+- The APIs are meticulously documented and conveniently navigable via Swagger UI, facilitating developers in comprehensively testing and comprehending the array of available endpoints.
 
 # Features
 ## Admin:-
